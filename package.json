@@ -1,6 +1,17 @@
 {
+  "name": "image-upload-app",
+  "version": "1.0.0",
+  "description": "Simple image upload website with Node.js backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
   "dependencies": {
     "express": "^5.2.1",
     "multer": "^2.1.1"
-  }
+  },
+  "keywords": ["image", "upload", "nodejs", "express"],
+  "author": "Akhilesh2612",
+  "license": "MIT"
 }
