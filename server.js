@@ -20,6 +20,11 @@ const upload = multer({ storage: storage });
 // Serve static files from current directory
 app.use(express.static('.'));
 
+// Route for root path - serve upload.html
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'upload.html'));
+});
+
 // Create uploads directory if it doesn't exist
 const fs = require('fs');
 if (!fs.existsSync('uploads')) {
