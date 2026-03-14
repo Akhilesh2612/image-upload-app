@@ -1,0 +1,12 @@
+.one{
+    height: 200px;
+    width:200px;
+    border:2px solid black
+}
+.two{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-top:40px ;
+    border: 1px solid black;
+}
